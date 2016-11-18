@@ -1,6 +1,3 @@
-resolvers += "Artima Maven Repository" at "http://repo.artima.com/releases"
-resolvers += "Typesafe Ivy releases" at "https://repo.typesafe.com/typesafe/ivy-releases"
-
 // The Play plugin
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.5.10")
 
