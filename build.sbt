@@ -11,4 +11,10 @@ libraryDependencies ++= Seq(
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test
 )
 
-fork in run := false
+lazy val extraResolvers = Seq(
+  "Artima Maven Repository" at "http://repo.artima.com/releases",
+  "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/",
+  "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases",
+  "sonatype-releases" at "https://oss.sonatype.org/content/repositories/releases/",
+  Resolver.jcenterRepo
+)
