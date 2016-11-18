@@ -1,0 +1,4 @@
+Playframework Application
+=========================
+
+image:https://travis-ci.org/stangenberg/play-scala.svg?branch=play-scala_2.5["Build Status", link="https://travis-ci.org/stangenberg/play-scala"]
