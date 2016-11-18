@@ -17,8 +17,10 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.1.0")
 
 addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.4.6")
 
-// other plugins
+// build plugins
 
 addSbtPlugin("de.heikoseeberger" % "sbt-header" % "1.6.0")
 
 addSbtPlugin("com.geirsson" % "sbt-scalafmt" % "0.4.1")
+
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.4.0")
