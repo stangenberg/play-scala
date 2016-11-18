@@ -19,6 +19,6 @@ headers := Map(
       | * limitations under the License.
       | */
       |
-      | """.stripMargin
+      |""".stripMargin
     )
 )

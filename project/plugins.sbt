@@ -20,3 +20,5 @@ addSbtPlugin("org.irundaia.sbt" % "sbt-sassify" % "1.4.6")
 // other plugins
 
 addSbtPlugin("de.heikoseeberger" % "sbt-header" % "1.6.0")
+
+addSbtPlugin("com.geirsson" % "sbt-scalafmt" % "0.4.1")
