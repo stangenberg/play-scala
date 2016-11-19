@@ -22,9 +22,7 @@ after_success:
 
 deploy:
   provider: heroku
-  buildpack: heroku/scala
   skip_cleanup: true
-  strategy: anvil
   api_key:
     secure: L7+vxN7vU1SBEEGXTlvsNegNPoCkcu/6GvgTSfMO93GTxUXacBuMr+5MmDOTwx0gcpJhQVH+2JvG4cCEJUlpn52R6fySTnbxrqROPi/HMhrK83sC/UKE7OIXcBp8NjzSito9mg+JM1YD625fkKLPD250C7PMJhdSx5u4ZjXWb1VHCeNZm2HhmvsBfqqcFY6kXGIXmssfBBzW2CbkcQUKaCzFt/qrCZ9R65rtI1z3AP3zP3nVLbSfP8s8I1iLUE0dDHDzezdAS8sv+djkmUe0CCOmWxoDDmE7hQkAYzI3KL46kYrk5dY4q4L52byWoxBE4ppJhG2GMpiYuSC0gyYiieo4TIs5/dypi8lVkMzQ8yU7pXoEzWcQoG0vZw1fStb6bU64kB6HnroGsT9RtehQMs0pnME//NknH0EvaCern00ydiWQ1y4Hp5tfc5B1YDxqKNFFkHZIjjLf6KoWM/DnVtuNHn0kgtqsRhXSdpfTob6qRKRPXsgZQ1skZ1nA7nmZQcLP9+mvVDR+CgmLH20DIYnJbB3kyPcLIuo9eqy3HwU8JF9CMRaffprbpgkEU2you3EZMPznhfLbcIZjCu7WavwSg/rKXnXbqL590vtdT9+eHE9Rhb+RKfpX2RHuTt/vTz3VflbX3VUdJobdOj/rrZMFnuvu4BjO0GdLPpXVv3Q=
   app: play-scala-2-5
