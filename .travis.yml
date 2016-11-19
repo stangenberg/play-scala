@@ -6,7 +6,7 @@ cache:
 language: scala
 
 jdk:
-- openjdk8
+- oraclejdk8
 
 addons:
     srcclr: true
@@ -23,7 +23,6 @@ after_success:
 deploy:
   provider: heroku
   buildpack: heroku/scala
-  jdk: openjdk8
   skip_cleanup: true
   strategy: anvil
   api_key:
