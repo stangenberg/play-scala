@@ -20,7 +20,7 @@ import org.scalatestplus.play.{OneAppPerTest, PlaySpec}
 import play.api.test.FakeRequest
 import play.api.test.Helpers._
 
-class AsyncControllerTest extends PlaySpec with OneAppPerTest {
+class AsyncControllerSpec extends PlaySpec with OneAppPerTest {
 
   "AsyncController" should {
 
