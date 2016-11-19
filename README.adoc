@@ -2,3 +2,5 @@ Playframework Application
 =========================
 
 image:https://travis-ci.org/stangenberg/play-scala.svg?branch=play-scala_2.5["Build Status", link="https://travis-ci.org/stangenberg/play-scala"]
+
+image:https://coveralls.io/repos/github/stangenberg/play-scala/badge.svg?branch=play-scala_2.5["Test Coverage", link="https://coveralls.io/github/stangenberg/play-scala?branch=play-scala_2.5]
