@@ -1,5 +1,7 @@
 import de.heikoseeberger.sbtheader.HeaderPattern
 
+enablePlugins(AutomateHeaderPlugin)
+
 headers := Map(
   "scala" -> (
     HeaderPattern.cStyleBlockComment,
